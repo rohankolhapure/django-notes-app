@@ -38,6 +38,8 @@ pipeline {
             steps{
                 echo "this deploying the code"
                 sh "docker run -d -p 8000:8000 notes-app:latest"
+
+             echo "Code has benn run successfully"
             }
         }
     }
